@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-def show_ranking_and_team_buttons(canvas, team_info, player_ranking):
+def show_ranking_and_team_buttons(canvas, team_info, player_rankings):
     global back_button 
     # 캔버스 초기화
     canvas.delete("all")
@@ -39,7 +39,7 @@ def show_ranking_and_team_buttons(canvas, team_info, player_ranking):
 
     for i, (x1, y1) in enumerate(click_areas):
         if i < len(team_info):
-            team = team_info[player_ranking[i] - 1]  # player_ranking에 따라 팀 선택
+            team = team_info[player_rankings[i] - 1]  # player_ranking에 따라 팀 선택
             x2 = x1 + 100  # 클릭 영역의 너비 설정
             y2 = y1 + 50   # 클릭 영역의 높이 설정
             
@@ -57,7 +57,7 @@ def show_ranking_and_team_buttons(canvas, team_info, player_ranking):
         (460, 513),
         (460, 580)
     ]
-    for i, rank in enumerate(player_ranking):
+    for i, rank in enumerate(player_rankings):
         if i < len(team_positions):
             team = next(team for team in team_info if team['team_number'] == rank)
             x_position, y_position = team_positions[i]
@@ -65,6 +65,8 @@ def show_ranking_and_team_buttons(canvas, team_info, player_ranking):
             team_text = f"{team['team_number']}조 {team['team_member'][:30]}"  # 멤버 이름 길이 제한
 
             canvas.create_text(x_position, y_position, anchor=tk.W, text=team_text, 
+                               
+                               
                                fill="black", font=("Arial", 14))
 
 def move_player(canvas, player, items):
@@ -115,7 +117,7 @@ def start_team_game(team):
     start_button.place(x=1100, y=600)
 
     # 뒤로 가기 버튼 생성
-    back_button = ttk.Button(root, text="뒤로 가기", command=lambda: show_ranking_and_team_buttons(canvas, team_info, player_ranking))
+    back_button = ttk.Button(root, text="뒤로 가기", command=lambda: show_ranking_and_team_buttons(canvas, team_info, player_rankings))
     back_button.place(x=20, y=20)
 
 def create_game_window(canvas, team_info):
@@ -165,8 +167,8 @@ team_info = [
     {'team_member': '마이클 조던 르브론 제임스 코비', 'team_number': 7}  # 새로운 팀 7
 ]
 
-# 임의의 player_ranking 데이터
-player_ranking = [2, 4, 1, 3, 5, 6, 7]  # 팀 번호 순서대로 순위 표시  # 팀 번호 순서대로 순위 표시
+# 임의의 player_rankings 데이터
+player_rankings = [2, 4, 1, 3, 5, 6, 7]  # 팀 번호 순서대로 순위 표시  # 팀 번호 순서대로 순위 표시
 
 # 메인 창 생성
 root = tk.Tk()
@@ -179,6 +181,6 @@ canvas.pack()
 
 
 # 랭킹 및 팀 버튼 표시
-show_ranking_and_team_buttons(canvas, team_info, player_ranking)
+show_ranking_and_team_buttons(canvas, team_info, player_rankings)
 
 root.mainloop()
