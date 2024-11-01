@@ -24,29 +24,3 @@
 ![advertisement_img](img/README_img/advertisement.png)
 
 > 🗣 그래서 저희는 <br> **1. 게임 실행 과정이 번거롭지 않고,** <br> **2. 마지막까지 결과를 예측하기 어려운** <br> SSAFY 전용 벌칙 게임을 만들고자 했습니다.
-
-# 🎮 게임 소개
-
-
----
-
-
-### 게임 시나리오
-
-![senario_img](img/README_img/game_senario.png)
-
-</aside>
-
-### 스테이지 구성
-
-### UI
-
-### 장애물 시스템
-
-### 랭킹 판정
-
-
-
-# 👩‍👩‍👦 팀원 소개 및 소감
-
----
