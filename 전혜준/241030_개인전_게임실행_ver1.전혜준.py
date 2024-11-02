@@ -19,11 +19,11 @@ def show_ranking_and_team_buttons(canvas, team_info, player_rankings):
         start_button.destroy()
 
 
-        # 뒤로 가기 버튼 삭제 (랭킹 화면에서는 필요 없음)
+    # 뒤로 가기 버튼 삭제 (랭킹 화면에서는 필요 없음)
     if 'back_button' in globals() and back_button:
         back_button.destroy()
 
-         # 클릭 가능한 영역 생성 (7개의 좌표)
+    # 클릭 가능한 영역 생성 (7개의 좌표)
     click_areas = [
         (800, 175),  
         (800, 240),  
