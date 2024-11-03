@@ -41,7 +41,7 @@
 
 |팀 정보 입력 페이지 | 벌칙 팀 뽑기 게임 페이지 | 팀 랭킹창 페이지 |
 | ---------- | ------------------ |------------- |
-| ![team_input_img](img/README_img/team_input.png) | ![team_input_img](../img/README_img/team_input.png) | ![teame_input_img](../img/README_img/team_input.png) |
+| ![team_input_img](img/README_img/team_input.png) | ![team_game_img](img/README_img/team_game.gif) | ![team_ranking_img](img/README_img/team_ranking.png) |
 
 
 - **라운드 2.** 벌칙 `팀원` 뽑기
@@ -52,14 +52,14 @@
 
 | 팀 랭킹창 페이지 | 벌칙 팀원 뽑기 게임 페이지 | 팀원 랭킹창 페이지 |
 | ---------- | ------------------ |------------- |
-| [teame_input_img](../img/README_img/team_input.png) | [teame_input_img](../img/README_img/team_input.png) |[teame_input_img](../img/README_img/team_input.png) |
+| ![team_ranking_img](img/README_img/team_ranking.png) | ![member_game_img](img/README_img/member_game.gif) | ![member_ranking_img](img/README_img/member_ranking.png) |
 
 
 ### UI
 > 🗣 디자인 테마는 무엇인가요? 
 - 대전 2반은 평소 서로를 귀여운 동물 친구들로 바라보는 분위기라는 점에서 착안하여 동물을 테마로 잡았어요.
 - 실제 자연 경관이 아름다운 SSAFY 대전 캠퍼스를 재현했어요.
-<img src="img/README_img/campus.png"  width="800">
+<img src="img/README_img/campus.png"  width="700">
 
 <p align='center'>
     <img width="800" alt="피그마 전체 페이지" src="https://github.com/user-attachments/assets/cb4bc303-a695-4ff4-b0b4-8c0cc33447fe">
