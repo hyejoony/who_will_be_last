@@ -73,14 +73,14 @@
 <img src="img/README_img/items.png"  width="800">
 
 | 아이템 | 설명 |  아이콘   |  실행 결과 |
-|:-----:|----|-----|-----|
-|황금 버섯|- 플레이어의 이동 속도가 5초간 빨라짐|<img src="img/items/gold_mushroom.png" width="50">|<img src="img/README_img/황금버섯 (1).gif"  width="250">|
-| 독버섯 |- 플레이어의 이동 속도가 5초간 느려짐|<img src="img/items/poison_mushroom.png" width="50">|<img src="img/README_img/독버섯 (1).gif"  width="250">|
-| 거미줄 |- 거미줄에 먹이가 포획되는 것에 착안 <br> - 플레이어의 이동이 5초간 정지됨|<img src="img/items/cobweb.png" width="50">|<img src="img/README_img/거미줄 (1).gif"  width="250">|
-| 열기구 |- 열기구의 이동 특성에 착안 <br> - 플레이어가 5칸 앞으로 이동|<img src="img/items/balloon.png" width="50">|<img src="img/README_img/열기구 (2).gif"  width="250">|
-| 두더지 구멍 |- 동물이 구멍에 빠지는 효과 표현 <br> - 플레이어가 다시 출발지로 이동|<img src="img/items/hole.png" width="50">|<img src="img/README_img/두더지 구멍.gif"  width="250">|
-|  밤   | - 밤송이 가시가 뾰족한 것에 착안 <br> - 뒤로 5칸 이동 |<img src="img/items/chestnut.png"  width="50">|   <img src="img/README_img/밤 (1).gif" width="250">  |
-|  랜덤박스   | - 마지막까지 게임 결과를 예상하지 못하도록 플레이어간 순위를 무효화하는 아이템 <br > - 효과 추측하지 못하도록 물음표 이미지 사용 <br> 1. 모든 플레이어가 출발지로 되돌아감 <br> 2. 모든 플레이어의 위치가 랜덤으로 뒤바뀜 |<img src="img/items/random_box.png"  width="50">|<img src="img/README_img/랜덤(섞기).gif"  width="250"><img src="img/README_img/랜덤(초기화).gif"  width="250">|
+|:-----:|----|-------|-----|
+|황금 버섯|- 플레이어의 이동 속도가 5초간 빨라짐|<img src="img/items/gold_mushroom.png" width="100">|<img src="img/README_img/황금버섯 (1).gif"  width="250">|
+| 독버섯 |- 플레이어의 이동 속도가 5초간 느려짐|<img src="img/items/poison_mushroom.png" width="100">|<img src="img/README_img/독버섯 (1).gif"  width="250">|
+| 거미줄 |- 거미줄에 먹이가 포획되는 것에 착안 <br> - 플레이어의 이동이 5초간 정지됨|<img src="img/items/cobweb.png" width="100">|<img src="img/README_img/거미줄 (1).gif"  width="250">|
+| 열기구 |- 열기구의 이동 특성에 착안 <br> - 플레이어가 5칸 앞으로 이동|<img src="img/items/balloon.png" width="100">|<img src="img/README_img/열기구 (2).gif"  width="250">|
+| 두더지 구멍 |- 동물이 구멍에 빠지는 효과 표현 <br> - 플레이어가 다시 출발지로 이동|<img src="img/items/hole.png" width="100">|<img src="img/README_img/두더지 구멍.gif"  width="250">|
+|  밤   | - 밤송이 가시가 뾰족한 것에 착안 <br> - 뒤로 5칸 이동 |<img src="img/items/chestnut.png"  width="100">|   <img src="img/README_img/밤 (1).gif" width="250">  |
+|  랜덤박스   | - 마지막까지 게임 결과를 예상하지 못하도록 플레이어간 순위를 무효화하는 아이템 <br > - 효과 추측하지 못하도록 물음표 이미지 사용 <br> 1. 모든 플레이어가 출발지로 되돌아감 <br> 2. 모든 플레이어의 위치가 랜덤으로 뒤바뀜 |<img src="img/items/random_box.png"  width="100">|<img src="img/README_img/랜덤(섞기).gif"  width="250"><img src="img/README_img/랜덤(초기화).gif"  width="250">|
 
 
 ##  ⚙️ 기술 스택
