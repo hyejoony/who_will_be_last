@@ -73,7 +73,7 @@
 <img src="img/README_img/items.png"  width="800">
 
 | 아이템 | 설명 |  아이콘   |  실행 결과 |
-|:-----:|----|-------|-----|
+|:-----:|-------|-------|:------:|
 |황금 버섯|- 플레이어의 이동 속도가 5초간 빨라짐|<img src="img/items/gold_mushroom.png" width="100">|<img src="img/README_img/황금버섯 (1).gif"  width="250">|
 | 독버섯 |- 플레이어의 이동 속도가 5초간 느려짐|<img src="img/items/poison_mushroom.png" width="100">|<img src="img/README_img/독버섯 (1).gif"  width="250">|
 | 거미줄 |- 거미줄에 먹이가 포획되는 것에 착안 <br> - 플레이어의 이동이 5초간 정지됨|<img src="img/items/cobweb.png" width="100">|<img src="img/README_img/거미줄 (1).gif"  width="250">|
