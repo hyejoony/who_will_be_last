@@ -59,7 +59,9 @@
 > 🗣 디자인 테마는 무엇인가요? 
 - 대전 2반은 평소 서로를 귀여운 동물 친구들로 바라보는 분위기라는 점에서 착안하여 동물을 테마로 잡았어요.
 - 실제 자연 경관이 아름다운 SSAFY 대전 캠퍼스를 재현했어요.
-<img src="img/README_img/campus.png"  width="700">
+<p align='center'>
+    <img src="img/README_img/campus.png"  width="600">
+</p>
 
 <p align='center'>
     <img width="800" alt="피그마 전체 페이지" src="https://github.com/user-attachments/assets/cb4bc303-a695-4ff4-b0b4-8c0cc33447fe">
@@ -72,13 +74,13 @@
 
 | 아이템 | 설명 |  아이콘   |  실행 결과 |
 |:-----:|----|-----|-----|
-|황금 버섯|- 플레이어의 이동 속도가 5초간 빨라짐|<img src="img/items/gold_mushroom.png" width="50">|<img src="img/README_img/황금버섯 (1).gif"  width="300">|
-| 독버섯 |- 플레이어의 이동 속도가 5초간 느려짐|<img src="img/items/poison_mushroom.png" width="50">|<img src="img/README_img/독버섯 (1).gif"  width="300">|
-| 거미줄 |- 거미줄에 먹이가 포획되는 것에 착안 <br> - 플레이어의 이동이 5초간 정지됨|<img src="img/items/cobweb.png" width="50">|<img src="img/README_img/거미줄 (1).gif"  width="300">|
-| 열기구 |- 열기구의 이동 특성에 착안 <br> - 플레이어가 5칸 앞으로 이동|<img src="img/items/balloon.png" width="50">|<img src="img/README_img/열기구 (2).gif"  width="300">|
-| 두더지 구멍 |- 동물이 구멍에 빠지는 효과 표현 <br> - 플레이어가 다시 출발지로 이동|<img src="img/items/hole.png" width="50">|<img src="img/README_img/두더지 구멍.gif"  width="300">|
-|  밤   | - 밤송이 가시가 뾰족한 것에 착안 <br> - 뒤로 5칸 이동 |<img src="img/items/chestnut.png"  width="50">|   <img src="img/README_img/밤 (1).gif" width="300">  |
-|  랜덤박스   | - 마지막까지 게임 결과를 예상하지 못하도록 플레이어간 순위를 무효화하는 아이템 <br > - 효과 추측하지 못하도록 물음표 이미지 사용 <br> 1. 모든 플레이어가 출발지로 되돌아감 <br> 2. 모든 플레이어의 위치가 랜덤으로 뒤바뀜 |<img src="img/items/random_box.png"  width="50">|<img src="img/README_img/랜덤(섞기).gif"  width="300"><img src="img/README_img/랜덤(초기화).gif"  width="300">|
+|황금 버섯|- 플레이어의 이동 속도가 5초간 빨라짐|<img src="img/items/gold_mushroom.png" width="50">|<img src="img/README_img/황금버섯 (1).gif"  width="250">|
+| 독버섯 |- 플레이어의 이동 속도가 5초간 느려짐|<img src="img/items/poison_mushroom.png" width="50">|<img src="img/README_img/독버섯 (1).gif"  width="250">|
+| 거미줄 |- 거미줄에 먹이가 포획되는 것에 착안 <br> - 플레이어의 이동이 5초간 정지됨|<img src="img/items/cobweb.png" width="50">|<img src="img/README_img/거미줄 (1).gif"  width="250">|
+| 열기구 |- 열기구의 이동 특성에 착안 <br> - 플레이어가 5칸 앞으로 이동|<img src="img/items/balloon.png" width="50">|<img src="img/README_img/열기구 (2).gif"  width="250">|
+| 두더지 구멍 |- 동물이 구멍에 빠지는 효과 표현 <br> - 플레이어가 다시 출발지로 이동|<img src="img/items/hole.png" width="50">|<img src="img/README_img/두더지 구멍.gif"  width="250">|
+|  밤   | - 밤송이 가시가 뾰족한 것에 착안 <br> - 뒤로 5칸 이동 |<img src="img/items/chestnut.png"  width="50">|   <img src="img/README_img/밤 (1).gif" width="250">  |
+|  랜덤박스   | - 마지막까지 게임 결과를 예상하지 못하도록 플레이어간 순위를 무효화하는 아이템 <br > - 효과 추측하지 못하도록 물음표 이미지 사용 <br> 1. 모든 플레이어가 출발지로 되돌아감 <br> 2. 모든 플레이어의 위치가 랜덤으로 뒤바뀜 |<img src="img/items/random_box.png"  width="50">|<img src="img/README_img/랜덤(섞기).gif"  width="250"><img src="img/README_img/랜덤(초기화).gif"  width="250">|
 
 
 ##  ⚙️ 기술 스택
